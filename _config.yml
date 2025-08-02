@@ -9,7 +9,7 @@ version: 2
 name: Alok
 title: AI Engineer
 email: aloklashok@gmail.com
-website: www.github.com/Alokiitdh/Alokkiitdh.github.io
+# website: www.github.com/Alokiitdh/Alokkiitdh.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -22,7 +22,8 @@ github_username:  Alokiitdh
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-linkedin_username: jameswgrant
+linkedin_username: alok-b58317148
+huggingface: AlokVishwakarma
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
