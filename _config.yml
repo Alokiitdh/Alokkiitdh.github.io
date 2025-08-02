@@ -1,120 +1,156 @@
-# Site
-repository: sproogen/resume-theme
+# Site 
+repository: Alokiitdh/resume
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Alok Vishwakarma
+title: AI/ML Researcher | Generative AI | LangGraph | LLM Agents
+email: aloklashok@gmail.com
+website: https://github.com/Alokiitdh
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+github_username: Alokiitdh
+linkedin_username: alok-b58317148
+huggingface_username: AlokVishwakarma
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+  - title: Hugging Face
+    icon: fas fa-brain
+    url: https://huggingface.co/AlokVishwakarma
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+about_content: |
+  AI/ML Researcher with expertise in Generative AI, LLM Agents, Retrieval-Augmented Generation (RAG), and Computer Vision. I enjoy building scalable, intelligent AI systems with modern tools like LangGraph, Hugging Face, PyTorch, Azure, and FastAPI. I'm currently pursuing my M.Tech in CSPML from IIT Dharwad.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I'm most skilled in: <mark>LangGraph</mark>, <mark>Generative AI</mark>, <mark>LLMs</mark>, and <mark>FastAPI</mark>.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: AskMyPDF – RAG-based AI Chatbot
+        link: https://github.com/Alokiitdh
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: Project Repository
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: https://github.com/Alokiitdh
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Enables interactive conversations with uploaded PDFs using LLMs and FAISS.
+        description: |
+          Built a FastAPI backend supporting document upload and chat interface using LangGraph. Integrated Groq’s LLaMA 3.3-70B for smart, contextual responses and ensured privacy via auto-cleanup. Evaluated using RAGAS.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: top-middle
+        title: CrowdFlow – People Counting System
+        quote: >
+          Real-time people detection and counting using YOLOv8 and SORT.
+        description: |
+          Implemented custom directional counters and visual overlays for public space analytics.
+
+      - layout: top-middle
+        title: PDF Summarizer Agent
+        description: |
+          Summarizes PDFs and answers questions using OpenAI + Pinecone. Built as a smart assistant with conversational capabilities.
+
+      - layout: top-middle
+        title: Diffusion Model: Realistic Face Generation
+        description: |
+          Built DDPM-based generator for anime faces using U-Net and custom dataset. Trained from scratch with PyTorch.
+
+      - layout: top-middle
+        title: DualWaveNet: Multimodal Depression Detection
+        description: |
+          Combined speech features (tempograms/log-mel) using ViT to classify depression. Early fusion improved accuracy.
+
+      - layout: top-middle
+        title: FakeSpeechNet: Fake Audio Detection
+        description: |
+          CNN-based detector trained on ASVspoof data using DCT-transformed log-mel spectrograms.
+
+  - title: Work Experience
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        title: Tipstat
+        sub_title: Machine Learning / Generative AI Intern
+        caption: May 2025 – Present
+        description: |
+          - Designed and evaluated RAG pipelines using LangGraph, LangChain, and RAGAS.
+          - Built agentic workflows and production APIs with FastAPI.
+          - Integrated external tools like web search in multi-agent systems.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: left
+        title: Indian Institute of Technology Dharwad
+        sub_title: Teaching Assistant
+        caption: Aug 2023 – Apr 2025
+        description: |
+          - Guided students in NN & DL lab with hands-on assignments.
+          - Supported labs on microcontrollers and control systems.
+          - Evaluated and mentored students in real-time coursework.
+
+  - title: M.Tech Thesis
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: FORGET: Instance-Wise Data Unlearning
+        sub_title: M.Tech Thesis (IIT Dharwad)
+        caption: Sep 2024 – Apr 2025
+        description: |
+          - Developed efficient framework for data unlearning from pretrained models without retraining.
+          - Combined adversarial and regularization methods using ResNet-18/50 in PyTorch.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Indian Institute of Technology Dharwad
+        sub_title: M.Tech in CSPML
+        caption: Aug 2023 – Apr 2025
+        quote: >
+          Focused on deep learning, signal processing, and machine learning foundations.
+        description: |
+          GPA: 8.07  
+          Courses: Neural Networks, Pattern Recognition, Deep Learning, Speech Processing.
+
+      - layout: left
+        title: Govt. College of Engineering & Technology, Bikaner
+        sub_title: B.Tech in ECE
+        caption: Aug 2016 – Dec 2020
+        description: |
+          GPA: 9.0  
+          Learned foundational electronics, signal processing, and systems engineering.
+
+  - title: Technical Skills
+    layout: text
+    content: |
+      - **Languages:** Python, C++
+      - **Generative AI & LLMs:** LangGraph, LangChain, Hugging Face, RAG, RAGAS, Vision Transformers
+      - **Frameworks:** PyTorch, TensorFlow, Keras, TensorFlow Federated
+      - **Web Dev:** FastAPI, Gradio, Streamlit, Flask
+      - **Libraries:** NumPy, Pandas, Matplotlib, scikit-learn
+      - **Cloud/DevOps:** Azure ML, Databricks, Docker, Git
+      - **SOTA Architectures:** YOLOv8, ResNet, ViT, U-Net
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    content: |
+      In my free time, I enjoy:
+      - Exploring AI tools
+      - Watching tech breakdowns
+      - Hiking and fitness
+      - Writing clean, open-source code
+      - [My GitHub Projects](https://github.com/Alokiitdh)
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
@@ -124,4 +160,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
