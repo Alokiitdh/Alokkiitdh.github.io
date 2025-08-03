@@ -110,7 +110,7 @@ content:
           I also gained experience in research-driven development, time-bound problem solving, and collaborative teamwork—all of which shaped my journey as an AI engineer.
       - layout: left
         title: Government College of Engineering and Technology, Bikaner
-        caption: 2019 - 2023
+        caption: 2016 - 2020
         sub_title: B.Tech – Electronics and Communication Engineering
         cpi: 9.0/10
         quote: >
@@ -118,17 +118,19 @@ content:
         description: | # this will include new lines to allow paragraphs
             I completed my undergraduate studies in Electronics and Communication Engineering, where I developed strong fundamentals in mathematics, signal processing, and embedded systems. This is where I was first introduced to programming, machine learning, and computer vision, which later evolved into my core areas of interest. I actively participated in technical events and projects, laying the groundwork for my future in AI.
 
-  - title: A Little More About Me
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Here are some of the core skills and technologies I have worked with:
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - **Programming Languages:** Python, C++
+      - **LLMs and Generative AI:** LangChain, LangGraph, LangSmith, Hugging Face, Agentic-RAG, RAGAS-LLM Evaluator, Vision Transformers, GANs, Diffusion Models
+      - **Deep Learning Frameworks:** PyTorch, TensorFlow, Keras, TensorFlow Federated
+      - **Web Development Technologies:** FastAPI, Gradio, Flask, Streamlit, RESTful APIs
+      - **Libraries:** Scikit-learn, Pandas, NumPy, Matplotlib
+      - **SOTA Architectures:** YOLOv5/YOLOv8, EfficientNet, ResNet, ViT, UNet
+      - **Cloud and DevOps Tools:** Azure ML, Databricks, Google Colab, Kaggle, Docker, Git, LaTeX
+
 
 # Footer
 footer_show_references: true
