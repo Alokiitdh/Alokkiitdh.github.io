@@ -49,7 +49,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name’s Alok and I’m an AI Engineer. I recently completed my M.Tech. in Communication Signal Processing and Machine Learning from IIT Dharwad, where I focused on machine learning and deep learning.
+  Hi, my name’s Alok and I’m an AI Engineer. I have completed my M.Tech. in Communication Signal Processing and Machine Learning from IIT Dharwad, where I focused on machine learning and deep learning.
 
   I have experience building intelligent multi-agent systems using LangGraph, LangChain, and LLMs. I’ve developed production-ready APIs with FastAPI, integrated external tools like web search, and worked with vector databases like FAISS and Pinecone for efficient semantic retrieval. I’ve also worked on advanced RAG pipelines, implemented real-time object tracking and counting systems, and built generative and classification models using CNNs, Vision Transformers, and diffusion techniques.
 
