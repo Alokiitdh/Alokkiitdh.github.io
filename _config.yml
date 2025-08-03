@@ -74,31 +74,11 @@ content:
 
             I’ve developed production-ready APIs using FastAPI, integrated external tools like web search into multi-agent systems, and utilized CLI tools to streamline and automate development workflows. I enjoy working at the intersection of infrastructure, intelligence, and innovation to bring powerful AI products to life.
 
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Indian Institute of Technology Dharwad
+        title: Indian Institute of Technology, Dharwad
         caption: 2023 - 2025
         sub_title: M.Tech – Communication Signal Processing and Machine Learning (CSPML)
         cpi: 8.07/10
@@ -109,7 +89,7 @@ content:
 
           I also gained experience in research-driven development, time-bound problem solving, and collaborative teamwork—all of which shaped my journey as an AI engineer.
       - layout: left
-        title: Government College of Engineering and Technology, Bikaner
+        title: Govt. College of Engineering and Technology, Bikaner
         caption: 2016 - 2020
         sub_title: B.Tech – Electronics and Communication Engineering
         cpi: 9.0/10
@@ -117,6 +97,26 @@ content:
           The place where I built my technical foundation and curiosity for AI.
         description: | # this will include new lines to allow paragraphs
             I completed my undergraduate studies in Electronics and Communication Engineering, where I developed strong fundamentals in mathematics, signal processing, and embedded systems. This is where I was first introduced to programming, machine learning, and computer vision, which later evolved into my core areas of interest. I actively participated in technical events and projects, laying the groundwork for my future in AI.
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: AI-interviewer
+        caption: July 2025
+        link: github.com/Alokiitdh/ai_interviewer
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/Alokiitdh/ai_interviewer
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A smart interview tool that asks questions, checks your answers, and gives feedback and a final score – all through a simple chat in your terminal.
+        description: | # this will include new lines to allow paragraphs
+          I built an AI-powered technical interviewer using a command-line interface (CLI). The system simulates a real interview by dynamically generating open-ended technical questions on a chosen topic (like Machine Learning, Networks, etc.), accepting user responses, and evaluating them with structured scoring and feedback. The project is built using LangGraph and OpenAI's GPT-4.1, and follows a multi-agent design with three core agents: the question_agent crafts theoretical questions, the evaluation_agent scores user answers based on clarity, depth, and accuracy, and the performance_agent compiles the final score and a concise performance summary. The architecture supports checkpointing, in-memory state tracking, and modular extensibility for future deployment via FastAPI or web interfaces. This project helped me explore advanced LLM workflows, prompt engineering, and the design of agent-based interview systems. It serves as a practical tool for technical interview practice and showcases how LLMs can be orchestrated in real-world applications.
 
   - title: Skills
     layout: text
