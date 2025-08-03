@@ -107,15 +107,16 @@ content:
           During my time at IIT Dharwad, I developed a strong foundation in machine learning, deep learning, and signal processing. The program provided both theoretical depth and practical exposure, allowing me to work on real-world projects involving generative AI, vision transformers, and diffusion models.
 
           I also gained experience in research-driven development, time-bound problem solving, and collaborative teamwork—all of which shaped my journey as an AI engineer.
-    - layout: left
-      title: Government College of Engineering and Technology, Bikaner
-      caption: 2019 - 2023
-      sub_title: B.Tech – Electronics and Communication Engineering
-      cpi: 9.0/10
-      quote: >
-        The place where I built my technical foundation and curiosity for AI.
-      description: | # this will include new lines to allow paragraphs
-          I completed my undergraduate studies in Electronics and Communication Engineering, where I developed strong fundamentals in mathematics, signal processing, and embedded systems. This is where I was first introduced to programming, machine learning, and computer vision, which later evolved into my core areas of interest. I actively participated in technical events and projects, laying the groundwork for my future in AI.
+    content:
+      - layout: left
+        title: Government College of Engineering and Technology, Bikaner
+        caption: 2019 - 2023
+        sub_title: B.Tech – Electronics and Communication Engineering
+        cpi: 9.0/10
+        quote: >
+          The place where I built my technical foundation and curiosity for AI.
+        description: | # this will include new lines to allow paragraphs
+            I completed my undergraduate studies in Electronics and Communication Engineering, where I developed strong fundamentals in mathematics, signal processing, and embedded systems. This is where I was first introduced to programming, machine learning, and computer vision, which later evolved into my core areas of interest. I actively participated in technical events and projects, laying the groundwork for my future in AI.
 
   - title: A Little More About Me
     layout: text
