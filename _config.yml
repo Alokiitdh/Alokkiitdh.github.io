@@ -55,6 +55,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   Along the way, I’ve gained strong problem-solving, debugging, and collaboration skills, and I’m passionate about building real-world AI applications.
 
+
 content:
 
   - title: Experience # Title for the section
@@ -107,7 +108,6 @@ content:
           During my time at IIT Dharwad, I developed a strong foundation in machine learning, deep learning, and signal processing. The program provided both theoretical depth and practical exposure, allowing me to work on real-world projects involving generative AI, vision transformers, and diffusion models.
 
           I also gained experience in research-driven development, time-bound problem solving, and collaborative teamwork—all of which shaped my journey as an AI engineer.
-    content:
       - layout: left
         title: Government College of Engineering and Technology, Bikaner
         caption: 2019 - 2023
