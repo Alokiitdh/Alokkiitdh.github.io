@@ -104,8 +104,8 @@ content:
       - layout: left
         title: AI-interviewer
         caption: July 2025
-        icon: fab fa-github
-        link: github.com/Alokiitdh/ai_interviewer
+        # icon: fab fa-github
+        # link: github.com/Alokiitdh/ai_interviewer
         # link_text: Project Website
         additional_links:
           - title: AI-interviewer
