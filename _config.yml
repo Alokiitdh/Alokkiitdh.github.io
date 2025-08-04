@@ -119,10 +119,11 @@ content:
         description: | # this will include new lines to allow paragraphs
           I built an AI-powered technical interviewer using a command-line interface (CLI). The system simulates a real interview by dynamically generating open-ended technical questions on a chosen topic (like Machine Learning, Networks, etc.), accepting user responses, and evaluating them with structured scoring and feedback. The project is built using LangGraph and OpenAI's GPT-4.1, and follows a multi-agent design with three core agents: the question_agent crafts theoretical questions, the evaluation_agent scores user answers based on clarity, depth, and accuracy, and the performance_agent compiles the final score and a concise performance summary. The architecture supports checkpointing, in-memory state tracking, and modular extensibility for future deployment via FastAPI or web interfaces. This project helped me explore advanced LLM workflows, prompt engineering, and the design of agent-based interview systems. It serves as a practical tool for technical interview practice and showcases how LLMs can be orchestrated in real-world applications.
      
-        title: AI-interviewer
-        caption: July 2025
+      - layout: left
+        title: AI-interviewer_copy
+        caption: July 2024
         # icon: fab fa-github
-        link: github.com/Alokiitdh/ai_interviewer
+        link: github.com/Alokiitdh/ai_interviewerrr
         # link_text: Project Website
         # additional_links:
           # - title: AI-interviewer
