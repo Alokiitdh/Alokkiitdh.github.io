@@ -73,7 +73,8 @@ content:
             I have designed and evaluated Retrieval-Augmented Generation (RAG) pipelines using LangGraph, LangChain, and LLMs, with performance benchmarking through RAGAS. My work includes building agentic workflows using LangGraph and leveraging LangSmith for tracing, debugging, and automating complex, multi-step behaviors.
 
             I’ve developed production-ready APIs using FastAPI, integrated external tools like web search into multi-agent systems, and used the command-line interface (CLI) to run, test, and operate these systems efficiently.
- - title: Education # Title for the section
+ 
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
