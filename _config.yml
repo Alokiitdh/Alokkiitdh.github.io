@@ -72,9 +72,8 @@ content:
         description: | # this will include new lines to allow paragraphs
             I have designed and evaluated Retrieval-Augmented Generation (RAG) pipelines using LangGraph, LangChain, and LLMs, with performance benchmarking through RAGAS. My work includes building agentic workflows using LangGraph and leveraging LangSmith for tracing, debugging, and automating complex, multi-step behaviors.
 
-            I’ve developed production-ready APIs using FastAPI, integrated external tools like web search into multi-agent systems, and utilized CLI tools to streamline and automate development workflows. I enjoy working at the intersection of infrastructure, intelligence, and innovation to bring powerful AI products to life.
-
-  - title: Education # Title for the section
+            I’ve developed production-ready APIs using FastAPI, integrated external tools like web search into multi-agent systems, and used the command-line interface (CLI) to run, test, and operate these systems efficiently.
+ - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -120,10 +119,10 @@ content:
           I built an AI-powered technical interviewer using a command-line interface (CLI). The system simulates a real interview by dynamically generating open-ended technical questions on a chosen topic (like Machine Learning, Networks, etc.), accepting user responses, and evaluating them with structured scoring and feedback. The project is built using LangGraph and OpenAI's GPT-4.1, and follows a multi-agent design with three core agents: the question_agent crafts theoretical questions, the evaluation_agent scores user answers based on clarity, depth, and accuracy, and the performance_agent compiles the final score and a concise performance summary. The architecture supports checkpointing, in-memory state tracking, and modular extensibility for future deployment via FastAPI or web interfaces. This project helped me explore advanced LLM workflows, prompt engineering, and the design of agent-based interview systems. It serves as a practical tool for technical interview practice and showcases how LLMs can be orchestrated in real-world applications.
      
       - layout: left
-        title: AI-interviewer_copy
+        title: AskMyPDF– RAG-based AI Chatbot
         caption: July 2024
         # icon: fab fa-github
-        link: github.com/Alokiitdh/ai_interviewerrr
+        link: github.com/Alokiitdh/ask_my_pdf
         # link_text: Project Website
         # additional_links:
           # - title: AI-interviewer
@@ -133,9 +132,16 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          A smart interview tool that asks questions, checks your answers, and gives feedback and a final score – all through a simple chat in your terminal.
-        description: | # this will include new lines to allow paragraphs
-          I built an AI-powered technical interviewer using a command-line interface (CLI). The system simulates a real interview by dynamically generating open-ended technical questions on a chosen topic (like Machine Learning, Networks, etc.), accepting user responses, and evaluating them with structured scoring and feedback. The project is built using LangGraph and OpenAI's GPT-4.1, and follows a multi-agent design with three core agents: the question_agent crafts theoretical questions, the evaluation_agent scores user answers based on clarity, depth, and accuracy, and the performance_agent compiles the final score and a concise performance summary. The architecture supports checkpointing, in-memory state tracking, and modular extensibility for future deployment via FastAPI or web interfaces. This project helped me explore advanced LLM workflows, prompt engineering, and the design of agent-based interview systems. It serves as a practical tool for technical interview practice and showcases how LLMs can be orchestrated in real-world applications.
+          A private PDF chatbot that lets you upload any document and ask questions about it in real-time – fast, accurate, and memory-aware.
+        description: |
+          I built an intelligent PDF chatbot using a Retrieval-Augmented Generation (RAG) architecture with a FastAPI backend. The system enables real-time, multi-turn conversations with uploaded PDFs via two endpoints—one for document upload and another for chatting with the document.
+
+          It uses a LangGraph-powered agentic workflow to manage stateful interactions and maintain session-specific memory, allowing context-aware responses across turns. For retrieval, I integrated FAISS for efficient vector similarity search and used HuggingFace Transformers to generate document embeddings.
+
+          The language model behind the system is Groq’s LLaMA 3.3-70B, which provides fast and contextually relevant answers. To ensure privacy, uploaded files are automatically cleaned up after use. I also evaluated the system using RAGAS to measure retrieval precision, answer faithfulness, and overall performance.
+
+          This project gave me hands-on experience with building secure, production-ready RAG pipelines, advanced LangGraph workflows, and integrating high-speed inference APIs. It's a practical solution for document-based Q&A tasks, combining modern LLM capabilities with robust backend engineering.
+
 
   - title: Skills
     layout: text
