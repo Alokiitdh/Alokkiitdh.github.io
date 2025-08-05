@@ -120,7 +120,7 @@ content:
      
       - layout: left
         title: AskMyPDF– RAG-based AI Chatbot
-        caption: July 2024
+        caption: June 2025
         # icon: fab fa-github
         link: github.com/Alokiitdh/ask_my_pdf
         # link_text: Project Website
@@ -135,7 +135,7 @@ content:
           A private PDF chatbot that lets you upload any document and ask questions about it in real-time – fast, accurate, and memory-aware.
 
         description: | # this will include new lines to allow paragraphs
-           I built an intelligent PDF chatbot using a Retrieval-Augmented Generation (RAG) architecture with a FastAPI backend. The system enables real-time, multi-turn conversations with uploaded PDFs via two endpoints—one for document upload and another for chatting with the document.It uses a LangGraph-powered agentic workflow to manage stateful interactions and maintain session-specific memory, allowing context-aware responses across turns. For retrieval, I integrated FAISS for efficient vector similarity search and used HuggingFace Transformers to generate document embeddings.The language model behind the system is Groq’s LLaMA 3.3-70B, which provides fast and contextually relevant answers. To ensure privacy, uploaded files are automatically cleaned up after use. I also evaluated the system using RAGAS to measure retrieval precision, answer faithfulness, and overall performance.This project gave me hands-on experience with building secure, production-ready RAG pipelines, advanced LangGraph workflows, and integrating high-speed inference APIs. It's a practical solution for document-based Q&A tasks, combining modern LLM capabilities with robust backend engineering.
+          I built an intelligent PDF chatbot using a Retrieval-Augmented Generation (RAG) architecture with a FastAPI backend. The system enables real-time, multi-turn conversations with uploaded PDFs via two endpoints—one for document upload and another for chatting with the document.It uses a LangGraph-powered agentic workflow to manage stateful interactions and maintain session-specific memory, allowing context-aware responses across turns. For retrieval, I integrated FAISS for efficient vector similarity search and used HuggingFace Transformers to generate document embeddings.The language model behind the system is Groq’s LLaMA 3.3-70B, which provides fast and contextually relevant answers. To ensure privacy, uploaded files are automatically cleaned up after use. I also evaluated the system using RAGAS to measure retrieval precision, answer faithfulness, and overall performance.This project gave me hands-on experience with building secure, production-ready RAG pipelines, advanced LangGraph workflows, and integrating high-speed inference APIs. It's a practical solution for document-based Q&A tasks, combining modern LLM capabilities with robust backend engineering.
 
   - title: Skills
     layout: text
