@@ -58,26 +58,26 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
 
-- title: Experience # Title for the section
-  layout: list # Type of content section (list/text)
-  content:
-    - layout: left
-      title: Tipstat 
-      link: tipstat.com
-      sub_title: AI Engineer Intern
-      caption: May 2025 - Present
-      quote: >
-        Building intelligent systems with LangGraph, FastAPI, and LLMs to solve real-world AI challenges.
-      description: | # this will include new lines to allow paragraphs
-          I have designed and evaluated Retrieval-Augmented Generation (RAG) pipelines using LangGraph, LangChain, and LLMs, with performance benchmarking through RAGAS. My work includes building agentic workflows using LangGraph and leveraging LangSmith for tracing, debugging, and automating complex, multi-step behaviors.
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Tipstat 
+        link: tipstat.com
+        sub_title: AI Engineer Intern
+        caption: May 2025 - Present
+        quote: >
+          Building intelligent systems with LangGraph, FastAPI, and LLMs to solve real-world AI challenges.
+        description: | # this will include new lines to allow paragraphs
+            I have designed and evaluated Retrieval-Augmented Generation (RAG) pipelines using LangGraph, LangChain, and LLMs, with performance benchmarking through RAGAS. My work includes building agentic workflows using LangGraph and leveraging LangSmith for tracing, debugging, and automating complex, multi-step behaviors.
 
-          I’ve developed production-ready APIs using FastAPI, integrated external tools like web search into multi-agent systems, and used the command-line interface (CLI) to run, test, and operate these systems efficiently.
+            I’ve developed production-ready APIs using FastAPI, integrated external tools like web search into multi-agent systems, and used the command-line interface (CLI) to run, test, and operate these systems efficiently.
 
-          Working in a team of four, I contributed to two major projects:
+            Working in a team of four, I contributed to two major projects:
 
-          - **Municipal Solid Waste Research Agentic Framework** – Built using LangGraph, this system accurately searches and classifies waste composition, including food waste (veg/non-veg) and plastic waste subdivided into seven major categories, delivering high-precision results.
+            - **Municipal Solid Waste Research Agentic Framework** – Built using LangGraph, this system accurately searches and classifies waste composition, including food waste (veg/non-veg) and plastic waste subdivided into seven major categories, delivering high-precision results.
 
-          - **Contractor AI** – Developed an AI-powered call analysis system that performs sentiment analysis, lead quality classification (HOT, MEDIUM, COLD), conversion probability estimation, and overall scoring. Implemented behavioral key phrase extraction and a smart sales rep assignment module to optimize lead follow-up.
+            - **Contractor AI** – Developed an AI-powered call analysis system that performs sentiment analysis, lead quality classification (HOT, MEDIUM, COLD), conversion probability estimation, and overall scoring. Implemented behavioral key phrase extraction and a smart sales rep assignment module to optimize lead follow-up.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
