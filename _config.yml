@@ -143,6 +143,72 @@ content:
         description: | # this will include new lines to allow paragraphs
           I built an intelligent PDF chatbot using a Retrieval-Augmented Generation (RAG) architecture with a FastAPI backend. The system enables real-time, multi-turn conversations with uploaded PDFs via two endpoints—one for document upload and another for chatting with the document.It uses a LangGraph-powered agentic workflow to manage stateful interactions and maintain session-specific memory, allowing context-aware responses across turns. For retrieval, I integrated FAISS for efficient vector similarity search and used HuggingFace Transformers to generate document embeddings.The language model behind the system is Groq’s LLaMA 3.3-70B, which provides fast and contextually relevant answers. To ensure privacy, uploaded files are automatically cleaned up after use. I also evaluated the system using RAGAS to measure retrieval precision, answer faithfulness, and overall performance.This project gave me hands-on experience with building secure, production-ready RAG pipelines, advanced LangGraph workflows, and integrating high-speed inference APIs. It's a practical solution for document-based Q&A tasks, combining modern LLM capabilities with robust backend engineering.
 
+      - layout: left
+        title: CrowdFlow-Real-Time People Counting and Tracking
+        caption: Jan. 2025- Feb. 2025
+        # icon: fab fa-github
+        link: github.com/Alokiitdh/CrowdFlow
+        # link_text: Project Website
+        # additional_links:
+          # - title: AI-interviewer
+          #   icon: fab fa-github
+          #   url: github.com/Alokiitdh/ai_interviewer
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A real-time people detection and tracking system for crowd analytics, powered by YOLOv8 and the SORT tracking algorithm..
+
+        description: | # this will include new lines to allow paragraphs
+          I built a high-performance video analytics pipeline capable of detecting, tracking, and counting people in live camera feeds or pre-recorded videos. The system uses YOLOv8 for accurate person detection and integrates the SORT (Simple Online and Realtime Tracking) algorithm to assign persistent, unique IDs to each individual, enabling seamless tracking across frames.
+
+          To support crowd analytics, I implemented custom directional counting logic that differentiates between upward and downward movement, ideal for entry–exit monitoring. The system supports region masking, allowing detection to be restricted to specific zones of interest—helpful for focusing on entrances, walkways, or event areas.
+
+          For better situational awareness, I designed clear visual overlays including bounding boxes, tracker IDs, and real-time entry–exit counters. These features make the system well-suited for surveillance, public space monitoring, and event management.
+
+          This project strengthened my expertise in real-time computer vision, multi-object tracking, and custom analytics logic, as well as integrating deep learning models into production-ready pipelines for video processing.
+
+
+      - layout: left
+        title: AskMyPDF– RAG-based AI Chatbot
+        caption: June 2025
+        # icon: fab fa-github
+        link: github.com/Alokiitdh/ask_my_pdf
+        # link_text: Project Website
+        # additional_links:
+          # - title: AI-interviewer
+          #   icon: fab fa-github
+          #   url: github.com/Alokiitdh/ai_interviewer
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A private PDF chatbot that lets you upload any document and ask questions about it in real-time – fast, accurate, and memory-aware.
+
+        description: | # this will include new lines to allow paragraphs
+          I built an intelligent PDF chatbot using a Retrieval-Augmented Generation (RAG) architecture with a FastAPI backend. The system enables real-time, multi-turn conversations with uploaded PDFs via two endpoints—one for document upload and another for chatting with the document.It uses a LangGraph-powered agentic workflow to manage stateful interactions and maintain session-specific memory, allowing context-aware responses across turns. For retrieval, I integrated FAISS for efficient vector similarity search and used HuggingFace Transformers to generate document embeddings.The language model behind the system is Groq’s LLaMA 3.3-70B, which provides fast and contextually relevant answers. To ensure privacy, uploaded files are automatically cleaned up after use. I also evaluated the system using RAGAS to measure retrieval precision, answer faithfulness, and overall performance.This project gave me hands-on experience with building secure, production-ready RAG pipelines, advanced LangGraph workflows, and integrating high-speed inference APIs. It's a practical solution for document-based Q&A tasks, combining modern LLM capabilities with robust backend engineering.
+
+
+      - layout: left
+        title: AskMyPDF– RAG-based AI Chatbot
+        caption: June 2025
+        # icon: fab fa-github
+        link: github.com/Alokiitdh/ask_my_pdf
+        # link_text: Project Website
+        # additional_links:
+          # - title: AI-interviewer
+          #   icon: fab fa-github
+          #   url: github.com/Alokiitdh/ai_interviewer
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A private PDF chatbot that lets you upload any document and ask questions about it in real-time – fast, accurate, and memory-aware.
+
+        description: | # this will include new lines to allow paragraphs
+          I built an intelligent PDF chatbot using a Retrieval-Augmented Generation (RAG) architecture with a FastAPI backend. The system enables real-time, multi-turn conversations with uploaded PDFs via two endpoints—one for document upload and another for chatting with the document.It uses a LangGraph-powered agentic workflow to manage stateful interactions and maintain session-specific memory, allowing context-aware responses across turns. For retrieval, I integrated FAISS for efficient vector similarity search and used HuggingFace Transformers to generate document embeddings.The language model behind the system is Groq’s LLaMA 3.3-70B, which provides fast and contextually relevant answers. To ensure privacy, uploaded files are automatically cleaned up after use. I also evaluated the system using RAGAS to measure retrieval precision, answer faithfulness, and overall performance.This project gave me hands-on experience with building secure, production-ready RAG pipelines, advanced LangGraph workflows, and integrating high-speed inference APIs. It's a practical solution for document-based Q&A tasks, combining modern LLM capabilities with robust backend engineering.
+
+
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
