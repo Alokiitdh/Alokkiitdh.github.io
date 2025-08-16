@@ -170,10 +170,10 @@ content:
 
 
       - layout: left
-        title: AskMyPDF– RAG-based AI Chatbot
-        caption: June 2025
+        title: Diffusion Model- Realistic Face Generation with DDPM
+        caption: May. 2024- Aug. 2024
         # icon: fab fa-github
-        link: github.com/Alokiitdh/ask_my_pdf
+        link: github.com/Alokiitdh/Diffusion-Model
         # link_text: Project Website
         # additional_links:
           # - title: AI-interviewer
@@ -183,15 +183,19 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          A private PDF chatbot that lets you upload any document and ask questions about it in real-time – fast, accurate, and memory-aware.
+          A diffusion-based generative model that creates high-quality, realistic anime faces from pure noise – vibrant, detailed, and artistically consistent.
 
-        description: | # this will include new lines to allow paragraphs
-          I built an intelligent PDF chatbot using a Retrieval-Augmented Generation (RAG) architecture with a FastAPI backend. The system enables real-time, multi-turn conversations with uploaded PDFs via two endpoints—one for document upload and another for chatting with the document.It uses a LangGraph-powered agentic workflow to manage stateful interactions and maintain session-specific memory, allowing context-aware responses across turns. For retrieval, I integrated FAISS for efficient vector similarity search and used HuggingFace Transformers to generate document embeddings.The language model behind the system is Groq’s LLaMA 3.3-70B, which provides fast and contextually relevant answers. To ensure privacy, uploaded files are automatically cleaned up after use. I also evaluated the system using RAGAS to measure retrieval precision, answer faithfulness, and overall performance.This project gave me hands-on experience with building secure, production-ready RAG pipelines, advanced LangGraph workflows, and integrating high-speed inference APIs. It's a practical solution for document-based Q&A tasks, combining modern LLM capabilities with robust backend engineering.
+        description: |
+          I built a generative model using the Denoising Diffusion Probabilistic Model (DDPM) architecture to synthesize realistic anime face images. The system was trained on a custom-curated anime face dataset, enabling it to learn unique stylistic patterns and fine-grained facial details common in anime art.
+
+          The core denoising process is powered by a state-of-the-art U-Net architecture, which progressively removes Gaussian noise over multiple timesteps to reconstruct clean, high-quality images. During training, the model learns the reverse diffusion process—mapping noisy inputs back to the underlying image distribution—allowing it to generate completely new faces from random noise during inference.
+
+          Built with PyTorch, the model produces vibrant, stylistically consistent outputs that rival hand-drawn anime art. This project deepened my expertise in generative modeling, probabilistic diffusion processes, and advanced neural architectures, while providing hands-on experience in training large-scale image synthesis models.
 
 
       - layout: left
         title: DualWaveNet- Multimodal Vision Transformer for Depression Classification
-        caption: an. 2024- March. 2024
+        caption: Jan. 2024- March. 2024
         # icon: fab fa-github
         link: github.com/Alokiitdh/DualWaveNet
         # link_text: Project Website
