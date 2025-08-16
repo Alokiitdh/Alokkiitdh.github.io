@@ -190,10 +190,10 @@ content:
 
 
       - layout: left
-        title: AskMyPDF– RAG-based AI Chatbot
-        caption: June 2025
+        title: DualWaveNet- Multimodal Vision Transformer for Depression Classification
+        caption: an. 2024- March. 2024
         # icon: fab fa-github
-        link: github.com/Alokiitdh/ask_my_pdf
+        link: github.com/Alokiitdh/DualWaveNet
         # link_text: Project Website
         # additional_links:
           # - title: AI-interviewer
@@ -203,10 +203,16 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          A private PDF chatbot that lets you upload any document and ask questions about it in real-time – fast, accurate, and memory-aware.
+          A multimodal deep learning model that detects depression from speech using spectrogram and tempogram features – accurate, efficient, and transformer-powered.
 
-        description: | # this will include new lines to allow paragraphs
-          I built an intelligent PDF chatbot using a Retrieval-Augmented Generation (RAG) architecture with a FastAPI backend. The system enables real-time, multi-turn conversations with uploaded PDFs via two endpoints—one for document upload and another for chatting with the document.It uses a LangGraph-powered agentic workflow to manage stateful interactions and maintain session-specific memory, allowing context-aware responses across turns. For retrieval, I integrated FAISS for efficient vector similarity search and used HuggingFace Transformers to generate document embeddings.The language model behind the system is Groq’s LLaMA 3.3-70B, which provides fast and contextually relevant answers. To ensure privacy, uploaded files are automatically cleaned up after use. I also evaluated the system using RAGAS to measure retrieval precision, answer faithfulness, and overall performance.This project gave me hands-on experience with building secure, production-ready RAG pipelines, advanced LangGraph workflows, and integrating high-speed inference APIs. It's a practical solution for document-based Q&A tasks, combining modern LLM capabilities with robust backend engineering.
+        description: |
+          I developed DualWaveNet, a deep learning system designed to classify individuals as Depressed or Non-Depressed using the EATD-Corpus dataset. The raw audio is converted into two complementary modalities: log-Mel spectrograms to capture frequency–time patterns, and tempograms to extract tempo and rhythm features.
+
+          The model uses a dual-branch Vision Transformer (ViT-B/12) architecture, with each branch processing one modality independently. Through early fusion, the extracted features are combined to leverage both spectral and temporal cues for improved classification accuracy. To enhance inference efficiency, I integrated Token Merging (ToMe), which reduces computational cost while maintaining high accuracy.
+
+          This multimodal architecture achieved significant improvements over baseline models—surpassing CNN-based models (66%) and vanilla ViT architectures (83%). The result is a robust, transformer-powered depression detection model that captures subtle speech patterns, with potential applications in mental health screening and assistive diagnostic systems.
+
+          This project strengthened my expertise in multimodal deep learning, transformer architectures, and efficient model optimization for healthcare AI.
 
 
   - title: Skills
