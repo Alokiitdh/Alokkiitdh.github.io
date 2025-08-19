@@ -218,7 +218,24 @@ content:
 
           This project strengthened my expertise in multimodal deep learning, transformer architectures, and efficient model optimization for healthcare AI.
 
+  - title: M.Tech Thesis # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: FORGET- Instance-Wise Data Unlearning for Pretrained Models
+        caption: Sep. 2024 – Apr. 2025
+        # icon: fab fa-github
+        # link: github.com/your-repo-link
+        # link_text: Project Website
+        quote: >
+          Developed an approximate unlearning framework that efficiently removes specific training data from pretrained models without requiring full retraining, while preserving overall model accuracy.
+        description: | # this will include new lines to allow paragraphs
+          For my M.Tech thesis, I designed **FORGET**, an instance-wise data unlearning framework targeting pretrained models such as ResNet-18 and ResNet-50 in PyTorch. The goal was to selectively remove the influence of specific training samples without performing a full retraining cycle, ensuring both computational efficiency and practical applicability.
 
+          The approach combined **regularization** and **adversarial example techniques** to induce misclassification of targeted data points while carefully updating model weights. A key component of the framework was the application of a **Fisher Information-based weight importance matrix**, which guided the unlearning process by preserving critical parameters while selectively altering less important ones.
+
+          This work demonstrates how targeted data removal can be achieved while retaining strong model performance on non-targeted data, contributing to the growing field of **machine unlearning** and responsible AI.
+  
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
