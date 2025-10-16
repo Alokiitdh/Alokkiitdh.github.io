@@ -47,7 +47,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile_new.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name’s Alok and I’m an AI Engineer. I have completed my M.Tech. in Communication Signal Processing and Machine Learning from IIT Dharwad, where I focused on machine learning and deep learning.
 
