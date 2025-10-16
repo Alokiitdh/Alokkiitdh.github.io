@@ -69,16 +69,18 @@ content:
         quote: >
           Building intelligent systems with LangGraph, FastAPI, and LLMs to solve real-world AI challenges.
         description: | # this will include new lines to allow paragraphs
-            I have designed and evaluated Retrieval-Augmented Generation (RAG) pipelines using LangGraph, LangChain, and LLMs, with performance benchmarking through RAGAS. My work includes building agentic workflows using LangGraph and leveraging LangSmith for tracing, debugging, and automating complex, multi-step behaviors.
+          I have engineered and optimized Retrieval-Augmented Generation (RAG) pipelines using LangGraph, LangChain, and Large Language Models (LLMs), with rigorous performance benchmarking via RAGAS. My work focuses on building agentic, autonomous workflows with LangGraph and leveraging LangSmith for comprehensive tracing, debugging, and multi-step automation.
 
-            I’ve developed production-ready APIs using FastAPI, integrated external tools like web search into multi-agent systems, and used the command-line interface (CLI) to run, test, and operate these systems efficiently.
+          I’ve developed production-grade APIs using FastAPI, integrated external tools (such as web search) into multi-agent systems, and utilized CLI-based orchestration for streamlined testing and deployment.
 
-            Working in a team of four, I contributed to two major projects:
+          Collaborating in a team of four, I played a key role in delivering three major AI-driven projects:
 
-            - **Municipal Solid Waste Research Agentic Framework** – Built using LangGraph, this system accurately searches and classifies waste composition, including food waste (veg/non-veg) and plastic waste subdivided into seven major categories, delivering high-precision results.
+            - **Municipal Solid Waste Research Agent** – Designed a LangGraph-based intelligent retrieval system that accurately classifies waste composition, including food waste (veg/non-veg) and plastic waste segmented into seven subcategories. Achieved high-precision classification results through fine-tuned embeddings and structured retrieval.
 
-            - **Contractor AI** – Developed an AI-powered call analysis system that performs sentiment analysis, lead quality classification (HOT, MEDIUM, COLD), conversion probability estimation, and overall scoring. Implemented behavioral key phrase extraction and a smart sales rep assignment module to optimize lead follow-up.
-
+            - **Contractor AI** – Developed an AI-powered call analysis platform performing sentiment analysis, lead quality classification (HOT, MEDIUM, COLD), and conversion probability estimation. Engineered modules for behavioral key phrase extraction and smart sales rep assignment, while optimizing system latency from ~40 seconds to 12–15 seconds, significantly improving lead follow-up efficiency.
+           
+            - **Meeting Agent** - Built an AI meeting assistant that generates concise summaries, actionable insights, and speaker-level sentiment analysis from transcripts. Integrated meeting action items with calendars using MCP, and optimized overall latency from ~30 seconds to 10–12 seconds, marking a 60% performance improvement.
+  
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
