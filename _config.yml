@@ -69,17 +69,18 @@ content:
         quote: >
           Building intelligent systems with LangGraph, FastAPI, and LLMs to solve real-world AI challenges.
         description: | # this will include new lines to allow paragraphs
-          I have engineered and optimized Retrieval-Augmented Generation (RAG) pipelines using LangGraph, LangChain, and Large Language Models (LLMs), with rigorous performance benchmarking via RAGAS. My work focuses on building agentic, autonomous workflows with LangGraph and leveraging LangSmith for comprehensive tracing, debugging, and multi-step automation.
-
-          I’ve developed production-grade APIs using FastAPI, integrated external tools (such as web search) into multi-agent systems, and utilized CLI-based orchestration for streamlined testing and deployment.
+          I have built and deployed scalable RAG pipelines and agentic workflows using LangGraph, LangChain, and LLMs,
+          with observability via LangSmith & Langfuse and performance evaluation through RAGAS; containerized and
+          served production-ready FastAPI applications on Docker and Render Cloud, integrating external tools for multi-
+          agent automation.
 
           Collaborating in a team of four, I played a key role in delivering three major AI-driven projects:
 
-            - **Municipal Solid Waste Research Agent** – Designed a LangGraph-based intelligent retrieval system that accurately classifies waste composition, including food waste (veg/non-veg) and plastic waste segmented into seven subcategories. Achieved high-precision classification results through fine-tuned embeddings and structured retrieval.
+            - **Municipal Solid Waste Research Agent** – Developed a LangGraph-based agent to analyze municipal solid waste data, classify waste types (e.g., food: veg/non-veg; plastics: 7 subcategories), and optimize research flows. Built FastAPI endpoints and tested with RAGAS, reducing latency from 30s to 12s.
 
-            - **Contractor AI** – Developed an AI-powered call analysis platform performing sentiment analysis, lead quality classification (HOT, MEDIUM, COLD), and conversion probability estimation. Engineered modules for behavioral key phrase extraction and smart sales rep assignment, while optimizing system latency from ~40 seconds to 12–15 seconds, significantly improving lead follow-up efficiency.
+            - **Contractor AI** –mplemented an AI system for sentiment analysis, lead qualification, and conversion scoring with Pydantic validation. Integrated a Qdrant-powered knowledge base for semantic retrieval, exposed via FastAPI and tested remotely with Ngrok, reducing latency from ∼40s to 12–15s and improving lead response efficiency.
            
-            - **Meeting Agent** - Built an AI meeting assistant that generates concise summaries, actionable insights, and speaker-level sentiment analysis from transcripts. Integrated meeting action items with calendars using MCP, and optimized overall latency from ~30 seconds to 10–12 seconds, marking a 60% performance improvement.
+            - **Meeting Agent** - Built an AI meeting assistant generating concise summaries, actionable insights, and speaker-level sentiment analysis; integrated MCP-based action items with calendar(Google Calendar). Exposed via FastAPI and tested remotely with Ngrok. Optimized latency from ∼30s to 10–12s (≈60% faster).
   
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
