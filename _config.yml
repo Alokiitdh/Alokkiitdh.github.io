@@ -78,7 +78,7 @@ content:
 
             - **Municipal Solid Waste Research Agent** – Developed a LangGraph-based agent to analyze municipal solid waste data, classify waste types (e.g., food: veg/non-veg; plastics: 7 subcategories), and optimize research flows. Built FastAPI endpoints and tested with RAGAS, reducing latency from 30s to 12s.
 
-            - **Contractor AI** –mplemented an AI system for sentiment analysis, lead qualification, and conversion scoring with Pydantic validation. Integrated a Qdrant-powered knowledge base for semantic retrieval, exposed via FastAPI and tested remotely with Ngrok, reducing latency from ∼40s to 12–15s and improving lead response efficiency.
+            - **Contractor AI** – Implemented an AI system for sentiment analysis, lead qualification, and conversion scoring with Pydantic validation. Integrated a Qdrant-powered knowledge base for semantic retrieval, exposed via FastAPI and tested remotely with Ngrok, reducing latency from ∼40s to 12–15s and improving lead response efficiency.
            
             - **Meeting Agent** - Built an AI meeting assistant generating concise summaries, actionable insights, and speaker-level sentiment analysis; integrated MCP-based action items with calendar(Google Calendar). Exposed via FastAPI and tested remotely with Ngrok. Optimized latency from ∼30s to 10–12s (≈60% faster).
   
